@@ -1,8 +1,8 @@
 /*!
-Pure v0.3.1-pre
-Copyright 2013 Yahoo! Inc. All rights reserved.
+Pure v0.5.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
-https://github.com/yui/pure/blob/master/LICENSE.md
+https://github.com/yahoo/pure/blob/master/LICENSE.md
 */
 .pure-button {
     /* Structure */
@@ -27,14 +27,14 @@ https://github.com/yui/pure/blob/master/LICENSE.md
     border: 0;
 }
 
-/*csslint unqualified-attributes:false, outline-none:false*/
+/*csslint outline-none:false*/
 
 .pure-button {
     font-family: inherit;
     font-size: 100%;
     *font-size: 90%; /*IE 6/7 - To reduce IE's oversized button text*/
     *overflow: visible; /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
-    padding: 0.5em 1.5em 0.5em;
+    padding: 0.5em 1em;
     color: #444; /* rgba not supported (IE 8) */
     color: rgba(0, 0, 0, 0.80); /* rgba supported */
     *color: #444; /* IE 6 & 7 */
@@ -43,12 +43,6 @@ https://github.com/yui/pure/blob/master/LICENSE.md
     background-color: #E6E6E6;
     text-decoration: none;
     border-radius: 2px;
-    /* Transitions */
-    -webkit-transition: 0.1s linear -webkit-box-shadow;
-    -moz-transition: 0.1s linear -moz-box-shadow;
-    -ms-transition: 0.1s linear box-shadow;
-    -o-transition: 0.1s linear box-shadow;
-    transition: 0.1s linear box-shadow;
 }
 
 .pure-button-hover,
